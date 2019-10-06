@@ -1,0 +1,28 @@
+{
+  "name": "workshop-nodejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "NODE_ENV=production node src/index.js",
+    "dev": "NODE_NEV=development nodemon src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "app-module-path": "^2.2.0",
+    "body-parser": "^1.18.3",
+    "config": "^3.2.2",
+    "express": "^4.16.4",
+    "mongoose": "^5.4.11",
+    "mongoose-unique-validator": "^2.0.2",
+    "puppeteer": "^1.20.0",
+    "require-all": "^3.0.0",
+    "require-directory": "^2.1.1",
+    "slug": "^1.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.2"
+  }
+}

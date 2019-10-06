@@ -1,0 +1,23 @@
+{
+  "env": "development",
+  "port": "8013",
+  "host": "",
+  "api": {
+    "v1": "api/v1"
+  },
+  "merchants": [{
+    "name": "bpost",
+    "url": "https://banjarmasin.tribunnews.com"
+  }],
+  "category": {
+    "bpost": ["kalsel", "kalsel/tanah-bumbu"]
+  },
+  "mongodb":{
+    "host": "127.0.0.1",
+    "port": "27017",
+		"db": "news-scraping",
+		"user": "",
+    "pass": "",
+    "option": ""
+  }
+}
